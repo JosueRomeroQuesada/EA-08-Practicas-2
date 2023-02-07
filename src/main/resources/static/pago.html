@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="es">
+    <head>
+        <title>Biofitshop</title>
+        <meta charset="UTF-8">
+        <meta name="descrition"content ="Practica semana3"/><!-- comment -->
+        <meta name ="keywords" content="TBiofitshop, natural,remedios"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+
+
+        <aside class="aside">
+            <h2 id ="noticia">Precios especiales en: </h2>
+            <img src="img/tratamiento natural.jpeg" alt="imagen de remedios" width="290" height="150" />
+            <p>Por esta semana tenemos descuentos en el apartado de terapias naturales, entonces aprovecha para
+                comprarlos. presione aqui para ver</p>
+
+
+        </aside>
+        <header class="header">
+            <nav class="nav">
+                <a class="logo nav-link" href="index.html">Biofitshop</a>
+                <ul class="nav-menu">
+                    
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="tratamientos.html">terapias naturales</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="suplementos.html">Suplementos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="medicina.html">Medicina</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="perfil.html">Perfil</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="carrito.html">Carrito&NestedGreaterGreater;</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+
+        <section class="contenido">
+            <h2 class="subtitulo"><u>Proceso de pago</u></h2>
+           <article>
+            <h3>registro de cliente</h3>
+            <form action="/cliente/insertar" method="post">
+                <input type="hidden" name="id" value="5" />
+                <fieldset>
+                    <label>numero de tarjeta</label>
+                    <input type="text" name="nombre" value="" size="40" />
+                </fieldset>
+                <fieldset>
+                    <label>ccv</label>
+                    <input type="password" name="clave" value="" size="10" />
+                </fieldset>
+                <fieldset>
+                    <label>mes de vencimiento</label>
+                    <input type="number" name="mes" value=""  />
+                    
+                </fieldset>
+                <fieldset>
+                    <label>año de vencimiento</label>
+                    <input type="number" name="año" value="" />
+                    
+                </fieldset>
+                <input type="submit" value="Terminar" />
+            </form>
+        </article>
+                
+           
+
+
+        </section>
+        <footer class="footer">
+
+            derechos de autor 2023 &COPY;
+
+        </footer>
+
+
+
+
+
+
+
+    </body>
+</html>

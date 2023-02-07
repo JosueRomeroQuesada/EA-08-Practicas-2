@@ -1,0 +1,167 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 ene 2023, 10:10:59
+    Author     : Josué
+*/
+/* Este es un archivo para CSS  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.header {
+    background-color: lightgreen;
+    
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aside {
+    background-color: lightgray;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 15%;
+}
+
+.contenido {
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    left: 15%;
+    right: 0;
+    bottom: 20px;
+    overflow: scroll;
+    padding: 13px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+.subtitulo{
+    text-align:center;
+    
+    
+    
+    
+}
+article p {
+    color: black;
+    
+}
+.center{
+    align-items: center;
+    text-align: center;
+    
+}
+#noticia {
+    color: black;
+    
+}
+
+.titulo {
+    color: black;
+    
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right
+}
+
+tbody tr:nth-child(odd) {
+    background-color: green
+}
+
+tbody tr:nth-child(even) {
+    background-color: white
+}
+
+/* Comienza la definición del menú */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: white;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+   
+}
+.imgenecentro {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+   text-align: center;
+   padding-top: 20px;
+}
+p {
+    padding-top: 15px; 
+    padding-bottom: :10px;
+}
+.centro{
+    text-align: center;
+    align-self: 
+}
